@@ -1,0 +1,50 @@
+body {
+	background-image: url(sherlock.jpg);
+	margin: 30px;
+}
+.name h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 100px;
+  color: whitesmoke;
+  line-height: 0px;
+  margin-bottom: 30px;
+  
+}
+.name h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+  line-height: 0px;
+  color: whitesmoke;
+  margin: 20px;
+  margin-bottom: 30px;
+  }
+  button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    margin: 180px;
+    transform: translate(-50%, -55%);
+    color: whitesmoke;
+}
+#buttons {
+    position: absolute;
+    margin: 160px;
+    padding-top: 180px;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
